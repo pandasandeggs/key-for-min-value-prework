@@ -9,9 +9,11 @@ def key_for_min_value(name_hash)
       return nil 
     else
     name_hash.each do |key,value|
-      if value < the_value
-      the_key = key
-      the_value = value
+      the_key = name_hash.first[0]
+      the_value = name_hash.first[1]
+        if value < the_value
+        the_key = key
+        the_value = value
     end 
   end 
       end 
