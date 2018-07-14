@@ -16,6 +16,5 @@ def key_for_min_value(name_hash)
 				end 
 			end 
 		end 
+		the_key
 	end
-	the_key
-end
